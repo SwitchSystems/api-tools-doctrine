@@ -300,8 +300,6 @@ class DoctrineResource extends AbstractResourceListener implements
     public function setHydrator(HydratorInterface $hydrator) : void
     {
         $this->hydrator = $hydrator;
-
-        return $this;
     }
 
     /**
