@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Doctrine\DBAL\Driver\PDOSqlite\Driver;
+use Doctrine\DBAL\Driver\PDO\Sqlite\Driver;
 use LaminasTestApiToolsDb\Type\RevType;
 
 return [
