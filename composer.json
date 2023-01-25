@@ -26,7 +26,10 @@
                 "Laminas\\ApiTools\\Doctrine\\Admin",
                 "Laminas\\ApiTools\\Doctrine\\Server"
             ]
-        }
+        },
+       "branch-alias": {
+	       "dev-php81": "2.6.x-dev"
+       }
     },
     "require": {
         "php": "^8.0",
@@ -61,11 +64,6 @@
     "conflict": {
         "doctrine/dbal": "<2.12.0",
         "doctrine/orm": "<2.6.3"
-    },
-    "extra": {
-    	"branch-alias": {
-		"dev-php81": "2.6.x-dev"
-	}
     },
     "suggest": {
         "api-skeletons/zf-doctrine-hydrator": "Hydrator strategies for Doctrine in Laminas API Tools",
